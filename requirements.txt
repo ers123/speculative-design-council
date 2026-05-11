@@ -1,0 +1,10 @@
+# Speculative Design Council — Python dependencies
+
+streamlit>=1.30.0          # Web UI
+ollama>=0.6.1              # Local LLM client
+python-docx>=1.0.0         # .docx export
+pypdf>=4.0.0               # PDF resource ingestion
+openpyxl>=3.1.0            # .xlsx (Nemotron persona) ingestion
+
+# Optional — for MTP-accelerated inference (3x speed)
+# Install Ollama model: ollama pull gemma4-mtp
