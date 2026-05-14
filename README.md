@@ -5,6 +5,10 @@ A 4-agent council (Mirror / Map / Chairman / Futurist) deliberates on student na
 
 연세대 2026 Speculative Design 수업 보조 도구. 4명의 AI 에이전트(거울/지도/의장/미래학자)가 학생의 narratype을 분석·확장합니다. Ollama + Gemma 4 기반, 완전 오프라인 작동.
 
+> **🎓 학생 여러분께 / For students** — 이 도구의 설치는 **선택사항**입니다. 워크숍 당일 HarmonyOn이 직접 시연하니, 그냥 보고 따라와도 됩니다. 워크숍 필수 준비물은 폰 앱 + 평소 쓰는 cloud AI + narratype 200자 뿐 — 자세한 건 **[STUDENT_PREP.md](STUDENT_PREP.md)** 참조 (15분 끝).
+>
+> **Installation is OPTIONAL.** HarmonyOn will demo this tool during the workshop — just watch and follow. Required workshop prep is only phone app + your usual cloud AI + 200-char narratype. See **[STUDENT_PREP.md](STUDENT_PREP.md)** (15 min).
+
 ---
 
 ## What it does / 무엇을 하는가
@@ -30,7 +34,10 @@ Optional 4th agent (Futurist) generates 10 meta-questions based on Dator's Four 
 
 ---
 
-## Quick start / 빠른 시작
+## Quick start / 빠른 시작 (선택사항 · OPTIONAL)
+
+> 학생들은 설치 안 해도 워크숍 참여 가능. 아래는 *"직접 돌려보고 싶은 분들"* 을 위한 가이드.
+> Students don't need to install. Below is for those who want to run it themselves.
 
 ### Prerequisites / 전제
 
@@ -77,6 +84,32 @@ Browser opens automatically. Pick your language (한국어 / English) in the sid
 See **[INSTALL.md](INSTALL.md)** — step-by-step bilingual guide covering both Mac and Windows, plus troubleshooting for the 9 most common issues.
 
 상세한 설치 + 문제 해결 가이드는 **[INSTALL.md](INSTALL.md)** 참조.
+
+## Why this design? / 왜 이렇게 디자인되었나?
+
+처음 앱을 실행하면 *거울/지도/의장/미래학자, 4 archetype, Persona Council* 같은 용어들이 한꺼번에 보입니다. 헷갈리지 않게 **설계 의도**를 [WHY.md](WHY.md) 에 정리했습니다 (한·영 양국어).
+
+When you first run the app, terms like *Mirror/Map/Chairman/Futurist, 4 archetypes, Persona Council* appear at once. See **[WHY.md](WHY.md)** for the design intent (bilingual). Recommended for first-time users.
+
+## AGENTS.md 작성 가이드 / Authoring AGENTS.md
+
+워크숍 Stage 2 산출물(`AGENTS.md`)을 학생이 직접·수동으로 어떻게 작성하는지, 도구가 자동 생성한 draft를 어떻게 다듬는지, 좋은 AGENTS.md의 기준은 무엇인지 — **[AGENTS_MD_GUIDE.md](AGENTS_MD_GUIDE.md)** 에 한·영 양국어로 정리 (HAPPY GATE 완성 예시 포함).
+
+How students write the workshop's Stage 2 output (`AGENTS.md`) — both manually and by refining the tool's auto-draft. See **[AGENTS_MD_GUIDE.md](AGENTS_MD_GUIDE.md)** (bilingual, with full HAPPY GATE example).
+
+추가 예시 — 4 도메인별 완성된 AGENTS.md (`examples/` 폴더):
+- [HAPPY GATE](AGENTS_MD_GUIDE.md) (감정·정서) — in main guide
+- [COCOO](examples/AGENTS_cocoo.md) (정체성·관계)
+- [SPLIT](examples/AGENTS_split.md) (생태·환경)
+- [SelectON](examples/AGENTS_selecton.md) (신체·웨어러블)
+
+## 워크숍 운영 자료 / Workshop operation docs
+
+워크숍 진행자(facilitator) + 학생 사전 준비용:
+- **[STUDENT_PREP.md](STUDENT_PREP.md)** — 학생 사전 준비 안내 (한·영, 4가지 준비물 + 체크리스트)
+- **[NARRATYPE_WORKSHEET.md](NARRATYPE_WORKSHEET.md)** — narratype 200자 작성 가이드 (한·영, 5 단계 + 2025 학생 예시 4개)
+- **[ROLE_SPLIT.md](ROLE_SPLIT.md)** — 진행자 역할 분담 (HarmonyOn ↔ 박은선 교수님)
+- **[BACKUP_PLAN.md](BACKUP_PLAN.md)** — 7가지 실패 시나리오 + 대응책
 
 ---
 

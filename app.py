@@ -1114,6 +1114,10 @@ def main():
             <details style="margin-top: 0.6rem;">
                 <summary style="cursor: pointer; color: #2c5f7c; font-size: 0.85rem; font-weight: 500;">용어 + 더 자세히 (펼치기)</summary>
                 <div style="margin-top: 0.5rem; font-size: 0.85rem; color: #4a4a4a;">
+                  <div style="background: #fff8e1; padding: 0.5rem 0.7rem; border-radius: 3px; margin-bottom: 0.5rem; border-left: 3px solid #8b6914;">
+                    <b>왜 이렇게 디자인되었나? / Why this design?</b><br>
+                    거울·지도·의장·미래학자, 4 archetype, Persona Council — 처음엔 헷갈릴 수 있습니다. 설계 의도는 <b>WHY.md</b> (repo 루트, 한·영 양국어) 참조. The design intent is in <b>WHY.md</b> at the repo root.
+                  </div>
                   <div style="background: white; padding: 0.5rem 0.7rem; border-radius: 3px; margin-bottom: 0.5rem;">
                     <b>용어 안내</b><br>
                     • <b>narratype</b>: 본 수업의 핵심 작업 단위. 미래 시나리오 + 거주 인물 + 세계관의 결합 (narrative + archetype).<br>
@@ -1312,6 +1316,18 @@ def main():
         unsafe_allow_html=True,
     )
     render_pipeline(step, advisor_on)
+
+    # N-Round history accumulator — show completed rounds so user sees Council building up
+    _rh = st.session_state.get("round_history", [])
+    if _rh:
+        for prev in _rh:
+            with st.expander(f"이전 라운드 {prev['round']} 결과 (요약)", expanded=False):
+                st.markdown(f"**거울 (Round {prev['round']})**")
+                st.markdown(prev.get("scout", "")[:500] + ("..." if len(prev.get("scout", "")) > 500 else ""))
+                st.markdown(f"**지도 (Round {prev['round']})**")
+                st.markdown(prev.get("critic", "")[:500] + ("..." if len(prev.get("critic", "")) > 500 else ""))
+                st.markdown(f"**의장 (Round {prev['round']}) — 종합**")
+                st.markdown(prev.get("director", ""))
 
     stage_in_use = inputs.get("stage") or stage
     current_model = selected_model

@@ -7,6 +7,23 @@
 
 ---
 
+## ⚠️ 학생 여러분께 / For students
+
+**이 설치는 워크숍 참여를 위한 필수 조건이 아닙니다.**
+**This installation is NOT required to participate in the workshop.**
+
+- 워크숍 당일 HarmonyOn이 본 도구를 직접 시연합니다 — 보고 따라하면 됩니다.
+  HarmonyOn will demo this tool live during the workshop — just watch and follow.
+- 시도해보고 싶거나, 학기 중 본인 작품에 자율 활용하고 싶을 때 설치하세요.
+  Install if you want to try, or use it on your own work later in the semester.
+- 설치 어렵거나 실패해도 부담 갖지 마세요. 워크숍 30분 일찍 오시면 직접 도와드립니다.
+  If install is hard or fails, no worries — arrive 30 min early on workshop day for direct help.
+
+학생 사전 준비 가이드는 **[STUDENT_PREP.md](STUDENT_PREP.md)** 참조 (15분이면 끝나는 3가지 필수 준비).
+For required workshop prep (15 min), see **[STUDENT_PREP.md](STUDENT_PREP.md)**.
+
+---
+
 ## Choose your section / 섹션 선택
 
 - [한국어 가이드](#한국어-가이드) — 한국어 사용자
