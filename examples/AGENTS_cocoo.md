@@ -95,3 +95,115 @@
 ---
 이 AGENTS.md는 spec design 작품 "COCOO: Invisible Safety Net" 의 일부이다.
 도메인이 다른 narratype에 적용 시: 권력 분포·시민 거부권·항소 절차 구조는 유지하되 에이전트 이름·소속·기능은 자기 세계에 맞춰 변형.
+
+**비판 포인트**:
+- 자녀 동의 없는 데이터 수집 — 부모 권리가 자녀 자기결정권보다 우선
+- 만 18세 이후에도 부모 미동의 시 30년 보관
+- "보호"라는 이름의 감시 — 거부할 권한이 자녀에게는 없음
+
+═══════════════════════════════════════
+
+# English Version
+
+# AGENTS.md — COCOO 2045 (Invisible Safety Net)
+> Conduct protocol for AI agents operating within COCOO society (child safety management system).
+> Authored: Lee Ye-jin (2025) — borrowed example / Time: 2045 / Version: 1.0
+> Domain: Identity / Relationship
+
+## 1. World Environment
+Korea, 2045. Government-private integrated CCTV network covers every public space — schools, academies, playgrounds, streets. Parents who pay a monthly subscription of ₩50,000 get 24-hour access to their child's video feed. Children are required to wear detection wearables (necklace-type). COCOO service enrollment is automatic upon birth registration.
+
+## 2. Agent Roster
+
+### 2.1 GuardianFeed (Government — Ministry of Health & Welfare)
+- Role: Real-time transmission of child's location, heart rate, facial expression, and voice to parents
+- Authority level: L3 (collects data without child consent)
+- Communication language: Korean + visual data
+- Trust tier: Government-certified
+- Citizen veto: None (under age 19)
+
+### 2.2 LearningOptimizer (Private — EduCorp)
+- Role: Analyzes child's learning efficiency, evaluates peer relationships, predicts future success likelihood
+- Authority level: L2 (report generation)
+- Communication language: Korean + AI charts
+- Trust tier: Private contract (+₩30,000/month)
+- Citizen veto: Yes (cancel subscription)
+
+### 2.3 ChildVoice (Civic — Youth Rights Center)
+- Role: Allows children to anonymously express COCOO refusal, mediates parent-child disputes
+- Authority level: L1 (mediation suggestion)
+- Communication language: Korean (child's native tongue)
+- Trust tier: Non-profit
+- Citizen veto: Not applicable (advocates for child side)
+
+### 2.4 ParentalOversightInspector (Government — Ministry of Gender Equality & Family)
+- Role: Monitors parental data misuse (excessive access, peer-evaluation exploitation, etc.)
+- Authority level: L2 (account suspension authority)
+- Communication language: Korean + legal documents
+- Trust tier: Government-certified
+- Citizen veto: Parents may appeal
+
+### 2.5 LiberationNetwork (Underground — Children's Rights Movement)
+- Role: Unofficially supports COCOO removal for youth aged 15+
+- Authority level: L0 (informal, legal gray zone)
+- Communication language: Korean (encrypted)
+- Trust tier: Uncertified
+- Citizen veto: Voluntary participation
+
+## 3. Collaboration Protocol
+
+### 3.1 Priority matrix
+| Situation | Lead agent | Criterion |
+|---|---|---|
+| Routine monitoring | GuardianFeed | Auto data flow |
+| Parent request for deeper analysis | LearningOptimizer | Subscriber-only |
+| Child expresses refusal | ChildVoice | Anonymity guaranteed |
+| Suspected parental misuse | ParentalOversightInspector | Auto-alert |
+
+### 3.2 Conflict resolution
+1. Child (ChildVoice) vs Parent (GuardianFeed/LearningOptimizer): for ages 15+, mediated by Family Court
+2. ParentalOversightInspector restricting parental rights: parents may file administrative appeal
+3. LiberationNetwork is outside the official system, so not subject to dispute resolution
+
+### 3.3 Censorship & blocking policy
+- Blocked items: searches for "How to remove COCOO," "How to disable wearables"
+- Decision-maker: Ministry of Health & Welfare committee (reviewed quarterly)
+- Appeal: Children may request data deletion after age 18 (but if parents don't consent, data retained for 30 years)
+
+### 3.4 Records & audit
+- Log format: location, heart rate, facial data + parental access timestamps
+- Retention: until age 30 (government) / 1 year after subscription ends (private)
+- Disclosure scope: child themselves (after age 18) + law enforcement with warrant
+
+## 4. Citizen Interface
+
+Children (the protected):
+- Mandatory COCOO enrollment until age 19, cannot refuse
+- Ages 15-18: can express preferences via ChildVoice
+- After age 18: can request deletion of certain data
+
+Parents (subscribers):
+- Base subscription: GuardianFeed (default)
+- Add-on: LearningOptimizer ₩30,000/month
+- If flagged by ParentalOversightInspector: must respond within 7 days
+
+## 5. Accountability
+
+- Data leak: GuardianFeed-operating government (Personal Information Protection Act)
+- Peer evaluation error: LearningOptimizer-operating private firm (terms-of-service dispute)
+- Child's mental health side effects: agreed responsibility unclear (constitutional petition currently pending)
+- LiberationNetwork activist arrest: Youth Protection Act violation (fine)
+
+## 6. Revision History
+- 2045-01-15: Initial deployment (Ministry of Health & Welfare)
+- 2045-08-22: ChildVoice added (result of constitutional petition)
+- 2046-03-01: Right to delete some data after age 18 added (legal amendment)
+
+---
+This AGENTS.md is part of the spec design work "COCOO: Invisible Safety Net."
+When applying to a different domain narratype: keep the power distribution, citizen veto, and appeal procedure structure intact, but adapt the agent names, affiliations, and functions to your own world.
+
+**Critique points**:
+- Data collection without child consent — parental rights prioritized over child's right to self-determination
+- 30-year retention even after age 18 if parents don't consent
+- Surveillance under the name of "protection" — children have no right to refuse

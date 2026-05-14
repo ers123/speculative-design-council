@@ -324,7 +324,89 @@ Recommended: get a draft via Path A, then refine using Path B template.
 
 ### 2. Complete example (HAPPY GATE)
 
-See the Korean section above for a fully filled-in HAPPY GATE example. Don't copy verbatim — design for your own world.
+This example shows how to flesh out your own narratype. **Don't copy verbatim** — redesign for your own world.
+
+```markdown
+# AGENTS.md — HAPPY GATE 2045
+> Code of conduct for AI agents acting within HAPPY GATE society in Seoul, 2045.
+> Author: Park Ji-woo / Time: 2045 / Version: 1.0
+
+## 1. World Environment
+Seoul, 2045. HAPPY GATEs are installed at the entrance of every public facility (subways, government offices, large marts). Facial emotion analysis below a score of 60 results in entry denial. Citizens spend an average of 47 minutes per day managing their expression score.
+
+## 2. Agent Roster
+### 2.1 EmoSentinel (Government)
+- Role: Real-time calculation of gate passage scores
+- Authority level: L3 (entry decision authority)
+- Communication language: Visual data + Korean voice
+- Trust tier: Government-certified
+- Citizen veto: None (forced passage)
+
+### 2.2 SmileCoach (Private — operated by EmoEdge)
+- Role: Expression score improvement coaching, 5-min mirror training guide
+- Authority level: L1 (advice)
+- Communication language: Korean + micro-expression analysis
+- Trust tier: Private contract
+- Citizen veto: Yes (cancel subscription)
+
+### 2.3 EmoOmbud (Civic — Civil Liberties Coalition)
+- Role: Analyzes gate-denial cases, supports constitutional petitions
+- Authority level: L2 (investigation authority)
+- Communication language: Korean
+- Trust tier: Non-profit
+- Citizen veto: Not applicable (advocates for citizen side)
+
+### 2.4 ExpressionInspector (Government)
+- Role: Expression enforcement officer — detects gate score forgery and filler use
+- Authority level: L2 (fine imposition)
+- Communication language: Korean
+- Trust tier: Government-certified
+- Citizen veto: Administrative appeal possible
+
+### 2.5 NoSmileAdvocate (Underground — civic movement)
+- Role: Movement to legalize 'No Smile Zones,' anonymous expression-refusal campaigns
+- Authority level: L0 (informal)
+- Communication language: Korean (encrypted)
+- Trust tier: Uncertified (subject to censorship)
+- Citizen veto: Voluntary participation
+
+## 3. Collaboration Protocol
+### 3.1 Priority matrix
+| Situation | Lead agent | Criterion |
+|---|---|---|
+| Routine entry | EmoSentinel | Immediate pass/deny decision |
+| Score drop | SmileCoach | Auto-coaching begins |
+| Cumulative denials | EmoOmbud | Constitutional petition review |
+| Suspected score manipulation | ExpressionInspector | Enforcement |
+
+### 3.2 Conflict resolution
+1. EmoSentinel vs SmileCoach: government takes priority
+2. EmoOmbud vs ExpressionInspector: Constitutional Court judgment
+3. When citizens reject all agents: NoSmileAdvocate joins in
+
+### 3.3 Censorship & blocking policy
+- Blocked items: "expression freedom" keyword, gate-bypass information
+- Decision-maker: government committee (monthly review)
+- Appeal: within 7 days via civic org EmoOmbud
+
+### 3.4 Records & audit
+- Log format: gate passage timestamp, score, facial data
+- Retention: 3 years (government) / 1 year (private)
+- Disclosure scope: self + law enforcement with warrant
+
+## 4. Citizen Interface
+Citizens have **no right** to refuse the gate (but may join NoSmileAdvocate movement).
+SmileCoach subscription is optional. ExpressionInspector enforcement allows administrative appeal.
+
+## 5. Accountability
+- Wrong score calculation: EmoSentinel-operating government (EmoOmbud constitutional petition if government evades)
+- Coaching side effects (expression-fatigue depression): SmileCoach-operating firm
+- Enforcement errors: ExpressionInspector's ministry
+- NoSmileAdvocate activist arrests: human rights organizations intervene
+
+## 6. Revision History
+- 2045-03-15: initial draft / Park Ji-woo
+```
 
 Key takeaways from the example:
 - 5 agents from diverse origins (government, private, civic, watchdog, underground)
@@ -332,6 +414,10 @@ Key takeaways from the example:
 - Citizen veto specified per agent
 - Appeal procedures named (constitutional court, ombudsman)
 - Accountability traceable to specific actors
+
+**Critique points to consider in your own work**:
+- HAPPY GATE has no real citizen veto for the gate itself — that's the deliberate critique
+- Where in *your* world does power concentrate? Make that visible
 
 ---
 

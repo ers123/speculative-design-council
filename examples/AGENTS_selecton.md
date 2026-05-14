@@ -106,3 +106,115 @@
 - *"개인 자유"* 와 *"사회 분리"* 의 모순
 - 필터링되는 사람의 *"가시성 상실"* — 그들은 자기가 안 들린다는 사실조차 모름
 - 무료 = 광고 = 데이터 수집 — *"무료 청각 자유"* 의 실체
+
+═══════════════════════════════════════
+
+# English Version
+
+# AGENTS.md — SelectON 2045 (Auditory Stratification)
+> Conduct protocol for AI agents operating within SelectON society (voluntary auditory separation).
+> Authored: Park Hye-jun (2025) — borrowed example / Time: 2045 / Version: 1.0
+> Domain: Body / Wearable
+
+## 1. World Environment
+Korea, 2045. Wireless earbuds 'SelectON' adoption rate: 95%. Users wear them 24/7, hearing only sounds they choose. Even family, colleagues, and neighbors' voices must be *"subscribed"* to be audible. Crying babies, street protests, homeless cries — all auto-filtered. Society boasts *"0% noise pollution,"* but in reality it is *"0% others."*
+
+## 2. Agent Roster
+
+### 2.1 SoundFilterCore (Private — SelectON Inc.)
+- Role: Personalized auditory filtering (noise classification, auto-blocking, volume control)
+- Authority level: L3 (real-time blocking decisions)
+- Communication language: Natural-language voice commands (Korean & English)
+- Trust tier: Private contract (₩99,000/month)
+- Citizen veto: Yes (do not wear earbuds)
+
+### 2.2 EmergencyOverride (Government — Public Safety Office)
+- Role: Force-transmits emergency sirens and disaster broadcasts (bypasses filter)
+- Authority level: L3 (mandatory alerts)
+- Communication language: Korean + vibration
+- Trust tier: Government-certified
+- Citizen veto: None (survival infrastructure)
+
+### 2.3 SocialEmpathyMonitor (Private — Big Tech ad model)
+- Role: Analyzes patterns of sounds users blocked → serves personalized ads
+- Authority level: L2 (data collection and sale)
+- Communication language: Korean + advertising voice
+- Trust tier: Private contract (ad-supported = free subscription)
+- Citizen veto: Pay for premium to turn ads OFF
+
+### 2.4 NoiseRightsAdvocate (Civic — Auditory Empathy Coalition)
+- Role: Advocates for "filtered-out people" — homeless, protesters, crying babies
+- Authority level: L1 (investigation, public disclosure)
+- Communication language: Korean
+- Trust tier: Non-profit
+- Citizen veto: Not applicable (advocates for the filtered side)
+
+### 2.5 ResonanceCircle (Underground — 'Listen Together' informal collective)
+- Role: Operates cafés and parks where people remove earbuds and listen together
+- Authority level: L0 (informal)
+- Communication language: Korean (face-to-face)
+- Trust tier: Uncertified
+- Citizen veto: Voluntary participation
+
+## 3. Collaboration Protocol
+
+### 3.1 Priority matrix
+| Situation | Lead agent | Criterion |
+|---|---|---|
+| Routine filtering | SoundFilterCore | Auto-classification |
+| Emergency / crisis | EmergencyOverride | Forced transmission (filter invalid) |
+| Ad delivery | SocialEmpathyMonitor | Free users only |
+| Suspected filtering discrimination | NoiseRightsAdvocate | Investigation, public complaint |
+
+### 3.2 Conflict resolution
+1. SoundFilterCore vs EmergencyOverride: government takes priority
+2. SocialEmpathyMonitor data misuse: investigated by Personal Information Protection Commission
+3. ResonanceCircle is outside the system, not subject to disputes (but occupying public parks = misdemeanor)
+
+### 3.3 Censorship & blocking policy
+- Blocked items: "Filter hacking," "Emergency alert disabling"
+- Decision-maker: SelectON Inc. policy team (follows government guidelines)
+- Appeal: users may review their own filter logs within 30 days
+
+### 3.4 Records & audit
+- Log format: type of blocked sound, timestamp, location (personally identifiable)
+- Retention: 7 years (private ad model)
+- Disclosure scope: self (but ad inference algorithm not disclosed) + law enforcement with warrant
+
+## 4. Citizen Interface
+
+Earbud wearers (95%):
+- Auto-filtering — can add blocked items themselves
+- Want ads OFF → pay for premium
+- Emergency alerts: absolutely cannot be blocked
+
+The filtered-out (5% + countless anonymous):
+- Homeless, protesters, crying babies, street musicians
+- NoiseRightsAdvocate is their only channel of advocacy
+- They have no way of knowing they've been "filtered out" (the victims don't know)
+
+Non-wearers (5%):
+- Voluntary ResonanceCircle participants
+- Treated as *"strange people"* in public spaces
+- Some workplaces reject them in hiring (cited reason: "difficult to collaborate")
+
+## 5. Accountability
+
+- Filtering errors (e.g., blocking emergency alerts): SoundFilterCore-operating firm
+- Ad discrimination (targeting low-income groups): SocialEmpathyMonitor-operating firm
+- Social indifference resulting from homeless/protester invisibility: accountability unclear (currently unresolved)
+- ResonanceCircle activity → workplace disadvantage: Labor Relations Commission jurisdiction (recognized cases: 0)
+
+## 6. Revision History
+- 2030: SelectON Inc. founded
+- 2042: Government EmergencyOverride mandate (compulsory emergency alerts)
+- 2045: This AGENTS.md officially enacted
+- 2046 (planned): NoiseRightsAdvocate constitutional petition ("Is filtering a right or a form of discrimination?") in progress
+
+---
+This AGENTS.md is part of the spec design work "SelectON: Auditory Stratification."
+
+**Critique points**:
+- The contradiction between *"individual freedom"* and *"social separation"*
+- *"Visibility loss"* of the filtered — they don't even know they're unheard
+- Free = Ads = Data collection — the reality behind *"free auditory freedom"*

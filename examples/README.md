@@ -2,15 +2,18 @@
 
 > 4개 도메인의 완성된 AGENTS.md 예시. 본인 narratype 작성 시 참고용.
 > 4 fully-written AGENTS.md examples across different domains.
+>
+> **모든 예시는 한·영 양국어 (Korean + English).** 각 파일: 한국어 버전 → 구분선 → 영어 버전.
+> **All examples are bilingual.** Each file: Korean version → divider → English version.
 
-## 도메인별 예시
+## 도메인별 예시 / By domain
 
-| 파일 | 도메인 | narratype |
+| 파일 / File | 도메인 / Domain | narratype |
 |---|---|---|
-| [AGENTS_happy_gate.md](../AGENTS_MD_GUIDE.md) (in main guide) | 감정·정서 (Emotion) | 박지우 — HAPPY GATE (감정 검열) |
-| [AGENTS_cocoo.md](AGENTS_cocoo.md) | 정체성·관계 (Identity) | 이예진 — COCOO (자녀 CCTV 구독제) |
-| [AGENTS_split.md](AGENTS_split.md) | 생태·환경 (Ecology) | 심영석 — SPLIT (기후 불평등) |
-| [AGENTS_selecton.md](AGENTS_selecton.md) | 신체·웨어러블 (Body) | 박혜준 — SelectON (이어버드 청각 분리) |
+| [AGENTS_MD_GUIDE.md](../AGENTS_MD_GUIDE.md) (HAPPY GATE in main guide) | 감정·정서 / Emotion | 박지우 / Park Ji-woo — HAPPY GATE (감정 검열 / emotion surveillance) |
+| [AGENTS_cocoo.md](AGENTS_cocoo.md) | 정체성·관계 / Identity | 이예진 / Lee Ye-jin — COCOO (자녀 CCTV 구독제 / child CCTV subscription) |
+| [AGENTS_split.md](AGENTS_split.md) | 생태·환경 / Ecology | 심영석 / Shim Young-seok — SPLIT (기후 불평등 / climate stratification) |
+| [AGENTS_selecton.md](AGENTS_selecton.md) | 신체·웨어러블 / Body | 박혜준 / Park Hye-jun — SelectON (이어버드 청각 분리 / auditory separation) |
 
 ## 4개 예시의 공통 구조
 

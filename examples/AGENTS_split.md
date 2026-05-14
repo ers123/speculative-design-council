@@ -104,3 +104,114 @@
 - 알고리즘 공개 차단 → 차별 추적 불가
 - "자발 참여" 표현이 노동자에게는 비자발적 강제
 - OutsideMovement 사망을 "자기책임"으로 묶는 정부 논리
+
+═══════════════════════════════════════
+
+# English Version
+
+# AGENTS.md — SPLIT 2045 (Climate Stratification)
+> Conduct protocol for AI agents operating within SPLIT society (class division under climate crisis).
+> Authored: Shim Young-seok (2025) — borrowed example / Time: 2045 / Version: 1.0
+> Domain: Ecology / Environment
+
+## 1. World Environment
+Korea, 2045. Heatwaves, floods, wildfires, and fine dust have become routine. The top 10% live in 'Bubble Towers' (indoor air filtration, climate control, thermostat). The bottom 30% are 'climate workers' (delivery in scorching heat, cleaning in fine dust). Average life expectancy gap: 12 years. AI explains this gap as *"individual career choice"* and automates it.
+
+## 2. Agent Roster
+
+### 2.1 ClimateScoreAI (Government — Ministry of Environment)
+- Role: Calculates each citizen's climate exposure risk score. Determines Bubble Tower entry priority.
+- Authority level: L3 (authority over survival infrastructure distribution)
+- Communication language: Korean + score visualizations
+- Trust tier: Government-certified
+- Citizen veto: None (auto-applied)
+
+### 2.2 WorkerInsuranceBot (Private — Climate Worker Insurance)
+- Role: Determines climate workers' eligibility to work (based on heat index), processes sick leave
+- Authority level: L2 (authority to mandate rest days)
+- Communication language: Korean + work permit cards
+- Trust tier: Private contract (₩50,000/month, effectively mandatory)
+- Citizen veto: Non-enrollment leaves worker uninsured (accidents are self-liability)
+
+### 2.3 BubbleAccessGuard (Private — Bubble Tower Operator)
+- Role: Controls Bubble Tower entry, verifies residents and visitors
+- Authority level: L3 (entry refusal authority)
+- Communication language: English (residents are global elites)
+- Trust tier: Private contract
+- Citizen veto: Outsiders have no appeal process
+
+### 2.4 ClimateOmbud (Civic — Climate Justice Alliance)
+- Role: Analyzes worker deaths, audits ClimateScoreAI algorithm, supports constitutional petitions
+- Authority level: L1 (investigation, public disclosure)
+- Communication language: Korean
+- Trust tier: Non-profit (dependent on overseas funding)
+- Citizen veto: Not applicable (advocates for worker side)
+
+### 2.5 OutsideMovement (Informal — 'Outside Air' civic movement)
+- Role: Rejects Bubble Towers, advocates living in outside air. Rural self-sufficient communes.
+- Authority level: L0 (informal)
+- Communication language: Korean
+- Trust tier: Uncertified (government classifies as "health hazard")
+- Citizen veto: Voluntary participation
+
+## 3. Collaboration Protocol
+
+### 3.1 Priority matrix
+| Situation | Lead agent | Criterion |
+|---|---|---|
+| Heat alert | WorkerInsuranceBot | Auto rest-day or work-day mandate |
+| Bubble entry application | ClimateScoreAI → BubbleAccessGuard | Score + asset verification |
+| Worker death occurs | ClimateOmbud | Auto investigation |
+| Mortality algorithm suspected | ClimateOmbud → Constitutional Court | Public interest lawsuit |
+
+### 3.2 Conflict resolution
+1. ClimateScoreAI vs ClimateOmbud: Ministry of Environment committee (but 30% of members are from labor)
+2. BubbleAccessGuard vs ClimateScoreAI (private vs government): government takes priority
+3. OutsideMovement activists are outside the system, not subject to dispute resolution
+
+### 3.3 Censorship & blocking policy
+- Blocked items: "ClimateScoreAI algorithm disclosure," "Bubble Tower defect information"
+- Decision-maker: Ministry of Environment committee + corporate consortium
+- Appeal: ClimateOmbud constitutional petition (average 3 years to resolve)
+
+### 3.4 Records & audit
+- Log format: per-citizen climate exposure time, score, entry decisions
+- Retention: 50 years (government) / 5 years (private)
+- Disclosure scope: self (but algorithm not disclosed) + law enforcement with warrant
+
+## 4. Citizen Interface
+
+Top 10% (Bubble residents):
+- ClimateScoreAI scores auto-favorable
+- BubbleAccessGuard passage automatic
+- Almost no outside air exposure
+
+Middle class (30%):
+- Self-pays for masks and air purifiers
+- ClimateScoreAI score: middle
+- Bubble Tower entry waitlist: average 7 years
+
+Climate workers (30%):
+- Mandatory WorkerInsuranceBot enrollment
+- Refusing work during heatwave means business closure (livelihood crisis)
+- Rights protected only via ClimateOmbud
+
+## 5. Accountability
+
+- Worker heatstroke death: WorkerInsuranceBot-operating private firm (ClimateOmbud steps in if firm evades)
+- Bubble Tower resident facility accidents: BubbleAccessGuard-operating private firm
+- ClimateScoreAI algorithm discrimination: Ministry of Environment (constitutional petitions sustained: 0)
+- OutsideMovement activist death (outside exposure): self-liability (government position)
+
+## 6. Revision History
+- 2044-08-15: Heat deaths exceed 10,000 — civic movement begins
+- 2045-01-01: This AGENTS.md takes effect (Ministry of Environment)
+- 2045-06-22: ClimateOmbud forced into inclusion (result of constitutional petition)
+
+---
+This AGENTS.md is part of the spec design work "SPLIT: Climate Stratification."
+
+**Critique points**:
+- Algorithm disclosure blocked → discrimination cannot be tracked
+- The phrase "voluntary participation" is involuntary coercion for workers
+- Government logic that frames OutsideMovement deaths as "self-liability"
