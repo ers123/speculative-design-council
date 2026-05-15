@@ -177,7 +177,7 @@ Persona Council layer and Dator 4 archetypes integration are 2026 SD workshop sp
 ## 관련 자료 / Related docs
 
 - [README.md](README.md) — overview and installation
-- [INSTALL.md](INSTALL.md) — bilingual installation guide
+- [INSTALL.md](council/INSTALL.md) — bilingual installation guide
 - [DEMO_SCRIPT_SD.md](DEMO_SCRIPT_SD.md) — 60s hook demo script for workshop
 - [CONVERSION.md](CONVERSION.md) — fork conversion log from `streamlit_research_team`
 

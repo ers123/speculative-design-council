@@ -72,7 +72,7 @@ python -m pip install -r requirements.txt
 ### Run / 실행
 
 ```bash
-streamlit run app.py
+streamlit run council/app.py
 ```
 
 Browser opens automatically. Pick your language (한국어 / English) in the sidebar.
@@ -81,9 +81,9 @@ Browser opens automatically. Pick your language (한국어 / English) in the sid
 
 ## Full installation guide / 상세 설치 가이드
 
-See **[INSTALL.md](INSTALL.md)** — step-by-step bilingual guide covering both Mac and Windows, plus troubleshooting for the 9 most common issues.
+See **[INSTALL.md](council/INSTALL.md)** — step-by-step bilingual guide covering both Mac and Windows, plus troubleshooting for the 9 most common issues.
 
-상세한 설치 + 문제 해결 가이드는 **[INSTALL.md](INSTALL.md)** 참조.
+상세한 설치 + 문제 해결 가이드는 **[INSTALL.md](council/INSTALL.md)** 참조.
 
 ## Why this design? / 왜 이렇게 디자인되었나?
 
@@ -116,19 +116,19 @@ How students write the workshop's Stage 2 output (`AGENTS.md`) — both manually
 ## Project structure / 프로젝트 구조
 
 ```
-streamlit_spec_design_council/
-├── app.py                  # Main Streamlit app
-├── agents.py               # 12 system prompts (3 stages × 3 roles + advisor)
-├── personas.py             # Nemotron persona loading + Council recommendation
-├── exporters.py            # 5 export formats (docx, AGENTS.md, constellation, etc.)
-├── resources.py            # File upload + grounding
-├── sessions.py             # Session persistence
-├── templates.py            # UI strings (i18n), stage descriptions, demo scenarios
-├── class_constellation.py  # Class-wide visualization tool (standalone script)
-├── smoke_test.py           # Structural test (Ollama not required)
-├── e2e_test.py             # Mock E2E pipeline test
-├── INSTALL.md              # Bilingual installation guide
-├── DEMO_SCRIPT_SD.md       # 60-second hook demo script for workshop
+speculative-design-council/
+├── council/                # Python code + install guide
+│   ├── app.py              # Main Streamlit app
+│   ├── agents.py           # 12 system prompts (3 stages × 3 roles + advisor)
+│   ├── personas.py         # Nemotron persona loading + Council recommendation
+│   ├── exporters.py        # 5 export formats (docx, AGENTS.md, constellation, etc.)
+│   ├── resources.py        # File upload + grounding
+│   ├── sessions.py         # Session persistence
+│   ├── templates.py        # UI strings (i18n), stage descriptions, demo scenarios
+│   ├── class_constellation.py  # Class-wide visualization tool (standalone script)
+│   ├── smoke_test.py       # Structural test (Ollama not required)
+│   ├── e2e_test.py         # Mock E2E pipeline test
+│   └── INSTALL.md          # Bilingual installation guide
 ├── CONVERSION.md           # Notes on fork from streamlit_research_team
 └── requirements.txt
 ```
