@@ -25,7 +25,7 @@
 
 #### 경로 A — Streamlit Council Stage 2로 자동 draft (권장 시작)
 
-1. 앱 실행 (`streamlit run app.py`)
+1. 앱 실행 (`streamlit run council/app.py`)
 2. 사이드바 단계 = **"AGENTS.md 작성"** 선택
 3. 본문에 다음 입력:
    - **narratype 맥락** (Stage 1에서 했으면 자동 입력됨)
@@ -248,7 +248,7 @@ For this workshop, you borrow that format to design the code of conduct for AI a
 
 #### Path A — auto-draft via Streamlit Council Stage 2 (recommended start)
 
-1. Run the app (`streamlit run app.py`)
+1. Run the app (`streamlit run council/app.py`)
 2. In the sidebar, set Stage = **"AGENTS.md 작성"**
 3. Provide:
    - **Narratype context** (auto-filled if you did Stage 1)
@@ -467,7 +467,7 @@ If the domain differs, **the 5 agents' professions, affiliations, and authority 
 - [agents.md](https://agents.md/) — community standard for AGENTS.md format
 - [README.md](README.md) — overview and installation
 - [WHY.md](WHY.md) — why this 4-agent design
-- [INSTALL.md](INSTALL.md) — bilingual installation guide
+- [INSTALL.md](council/INSTALL.md) — bilingual installation guide
 - [DEMO_SCRIPT_SD.md](DEMO_SCRIPT_SD.md) — workshop demo script
 
 Yonsei Speculative Design 2026 · AGENTS_MD_GUIDE.md

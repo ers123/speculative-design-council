@@ -197,7 +197,7 @@ python -m pip install -r requirements.txt
 같은 폴더, venv 활성화된 상태에서:
 
 ```bash
-streamlit run app.py
+streamlit run council/app.py
 ```
 
 브라우저가 자동으로 열림 (http://localhost:8501).
@@ -212,7 +212,7 @@ source .venv/bin/activate
 # Windows:
 .venv\Scripts\activate
 
-streamlit run app.py
+streamlit run council/app.py
 ```
 
 ---
@@ -395,7 +395,7 @@ Install time: 2-5 minutes. Installs streamlit, ollama, python-docx, pypdf, openp
 In the same folder, with venv activated:
 
 ```bash
-streamlit run app.py
+streamlit run council/app.py
 ```
 
 Your browser will open automatically (http://localhost:8501).
@@ -410,7 +410,7 @@ source .venv/bin/activate
 # Windows:
 .venv\Scripts\activate
 
-streamlit run app.py
+streamlit run council/app.py
 ```
 
 ---
@@ -547,6 +547,6 @@ If stuck:
 - **Ollama docs**: https://ollama.com/docs
 - **Gemma 4 model card**: https://huggingface.co/google/gemma-4-E2B
 - **Streamlit docs**: https://docs.streamlit.io
-- **Council source code**: in this folder (README.md, agents.py, app.py)
+- **Council source code**: `council/` folder (agents.py, app.py 등). README는 repo root.
 
 Generated for Yonsei Speculative Design 2026 workshop · 2026.05.11
