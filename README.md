@@ -5,9 +5,9 @@ A 4-agent council (Mirror / Map / Chairman / Futurist) deliberates on student na
 
 연세대 2026 Speculative Design 수업 보조 도구. 4명의 AI 에이전트(거울/지도/의장/미래학자)가 학생의 narratype을 분석·확장합니다. Ollama + Gemma 4 기반, 완전 오프라인 작동.
 
-> **🎓 학생 여러분께 / For students** — 이 도구의 설치는 **선택사항**입니다. 워크숍 당일 HarmonyOn이 직접 시연하니, 그냥 보고 따라와도 됩니다. 워크숍 필수 준비물은 폰 앱 + 평소 쓰는 cloud AI + narratype 200자 뿐 — 자세한 건 **[STUDENT_PREP.md](STUDENT_PREP.md)** 참조 (15분 끝).
+> **🎓 학생 여러분께 / For students** — 이 도구의 설치는 **선택사항**입니다. 수업 당일 직접 시연하니, 그냥 보고 따라와도 됩니다. 워크숍 필수 준비물은 폰 앱 + 평소 쓰는 cloud AI + narratype 200자 뿐 — 자세한 건 **[STUDENT_PREP.md](STUDENT_PREP.md)** 참조 (15분 끝).
 >
-> **Installation is OPTIONAL.** HarmonyOn will demo this tool during the workshop — just watch and follow. Required workshop prep is only phone app + your usual cloud AI + 200-char narratype. See **[STUDENT_PREP.md](STUDENT_PREP.md)** (15 min).
+> **Installation is OPTIONAL.** The lecturer will demo this tool during the class — just watch and follow. Required workshop prep is only phone app + your usual cloud AI + 200-char narratype. See **[STUDENT_PREP.md](STUDENT_PREP.md)** (15 min).
 
 ---
 
