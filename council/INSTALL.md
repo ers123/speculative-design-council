@@ -528,6 +528,94 @@ Then retry `.venv\Scripts\activate`.
 
 ---
 
+## 부록: Claude Code + Ollama 경량 경로 / Appendix: Lightweight Claude Code + Ollama Path
+
+### 한국어
+
+**언제 이 경로가 맞나요?**
+- Python·pip·Streamlit 설치가 부담스럽고, 그냥 **터미널 챗 형태로 Council 흐름만 체험**하고 싶은 학생.
+- 노트북에 이미 Node.js가 있거나, 설치에 익숙한 학생.
+- **이 경로의 한계**: Streamlit UI 없음, Excel 페르소나 30명 반응 없음, .docx export 없음, Constellation 좌표 차트 없음, AGENTS.md 자동 export 없음. **4 에이전트 대화만 됩니다**. 전체 Council 기능을 쓰려면 위쪽 정식 설치 경로를 따르세요.
+
+**준비물**
+1. Node.js 18+ ([nodejs.org](https://nodejs.org))
+2. Ollama + `gemma4:e2b` (위쪽 1번·2번 단계 그대로)
+3. Claude Code CLI:
+   ```bash
+   npm install -g @anthropic-ai/claude-code
+   ```
+
+**연결**
+```bash
+ollama launch claude --model gemma4:e2b
+```
+또는 수동 설정:
+```bash
+export ANTHROPIC_AUTH_TOKEN=ollama
+export ANTHROPIC_API_KEY=""
+export ANTHROPIC_BASE_URL=http://localhost:11434
+claude --model gemma4:e2b
+```
+
+> ⚠️ Ollama 공식은 **64k 컨텍스트**를 권장합니다. Gemma 4 E2B 기본 8k라 긴 대화에서 잘릴 수 있어요. 컨텍스트 확장: `OLLAMA_CONTEXT_LENGTH=16384 ollama serve` (RAM 여유 필요).
+
+**Council 4 단계 흐름 (Claude Code 세션 안에서)**
+
+리포 클론 또는 ZIP 다운로드 후, Claude Code를 **레포 루트에서** 실행. 그러면 Claude Code가 `council/agents.py` 안의 원본 프롬프트를 직접 읽을 수 있습니다.
+
+세션에서 순서대로:
+1. `council/agents.py:54` 의 `ANALYZE_SCOUT` 프롬프트를 읽고, 그 역할로 내 narratype을 분석해줘 — narratype 200자 붙여넣기
+2. 이번엔 `ANALYZE_CRITIC` (지도) 역할로, 위 거울의 출력을 비평해줘
+3. 이번엔 `ANALYZE_DIRECTOR` (의장) 역할로 두 출력을 종합해줘
+4. (선택) `FUTURIST_SYSTEM_PROMPT` (미래학자 '하나') 역할로 메타 질문 10개 생성해줘
+
+각 단계 결과를 메모장에 붙여넣으면 Council 흐름 1회 완료.
+
+---
+
+### English
+
+**When does this path fit?**
+- You want to skip Python/pip/Streamlit and just experience the Council flow as **terminal chat**.
+- You already have Node.js or are comfortable installing it.
+- **Limits**: No Streamlit UI, no 30-persona Excel reactions, no .docx export, no Constellation chart, no automatic AGENTS.md export. **Only the 4-agent conversation.** For full Council features, follow the main install above.
+
+**Prereqs**
+1. Node.js 18+ ([nodejs.org](https://nodejs.org))
+2. Ollama + `gemma4:e2b` (steps 1 and 2 above)
+3. Claude Code CLI:
+   ```bash
+   npm install -g @anthropic-ai/claude-code
+   ```
+
+**Connect**
+```bash
+ollama launch claude --model gemma4:e2b
+```
+Or manually:
+```bash
+export ANTHROPIC_AUTH_TOKEN=ollama
+export ANTHROPIC_API_KEY=""
+export ANTHROPIC_BASE_URL=http://localhost:11434
+claude --model gemma4:e2b
+```
+
+> ⚠️ Ollama recommends a **64k context window**. Gemma 4 E2B defaults to 8k, so long sessions may truncate. Expand with: `OLLAMA_CONTEXT_LENGTH=16384 ollama serve` (needs spare RAM).
+
+**Council 4-step flow inside the Claude Code session**
+
+Clone or ZIP-download the repo, then launch Claude Code **from the repo root** so it can read prompt sources directly from `council/agents.py`.
+
+In the session, run in order:
+1. Read the `ANALYZE_SCOUT` prompt at `council/agents.py:54` and analyze my narratype in that role — paste your 200-char narratype.
+2. Now switch to `ANALYZE_CRITIC` (Map) and critique the previous output.
+3. Now switch to `ANALYZE_DIRECTOR` (Chairman) and synthesize both outputs.
+4. (Optional) Switch to `FUTURIST_SYSTEM_PROMPT` (Futurist 'Hana') and generate 10 meta-questions.
+
+Paste each step's output into your notes — one full Council pass done.
+
+---
+
 ## Getting Help / 도움 받기
 
 If stuck:
